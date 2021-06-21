@@ -19,7 +19,7 @@ import os
 #directory and allow you to use relative file paths. Just create a folder to 
 #You can see your drop everything into and point this line at that folder. Put the "Grunge Lyrics.xlsx file into this folder
 #current working directory by running this in the console: os.getcwd()
-os.chdir('C:\\Users\\kendo\\Documents\\Python Scripts\\Medium\\Phrase Analysis')
+os.chdir('C:\\PathToTheFolderYouCreated\\Phrase Analysis')
    
 #Load the grunge lyrics into a pandas dataframe
 dfAlbums = pd.read_excel('Grunge Lyrics.xlsx')
